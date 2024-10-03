@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "postbuild": "mv dist docs",
+    "build:github_pages": "vue-tsc -b && vite build",
+    "postbuild:github_pages": "mv dist docs",
     "preview": "vite preview"
   },
   "dependencies": {
