@@ -13,8 +13,8 @@ export default defineConfig({
                 enabled: true
             },
             manifest: {
-                name: 'AzulejoCode',
-                short_name: 'AzulejoCode',
+                name: 'Azulejo Code',
+                short_name: 'Azulejo Code',
                 description: 'My personal page AzulejoCode.',
                 theme_color: '#ffffff',
             }
